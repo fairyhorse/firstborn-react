@@ -13,7 +13,7 @@ class ErrorBoundary extends Component {
     }
 
     render() {
-        this.state.hasError? <h1 className="font-effect-neon f1">Oops! Error!</h1> : this.props.children;
+        return this.state.hasError? <h1 className="font-effect-neon f1">Oops! Error!</h1> : this.props.children;
     }
 }
 
