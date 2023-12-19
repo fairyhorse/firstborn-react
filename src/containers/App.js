@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import CardList from '../components/CardList';
-// import {robots} from './robots';
+// import {robots} from '../robots';
 import './App.css'
 import ErrorBoundary from "../components/ErrorBoundary";
 
@@ -11,7 +11,7 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            // robots: robots,
+            // robots,
             robots: [],
             searchfield: ''
         }
